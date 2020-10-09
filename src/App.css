@@ -15,16 +15,55 @@
 
 .App-header {
   background-color: #f5f6f8;
-  border: black;
-  margin-left: 100px;
-  min-height: 10vh;
+  border: 2px solid black;
+  border-radius: 5%;
+  padding: 2%;
+  margin-top: 5%;
+  margin-left: 25%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   align-items: left;
   justify-content: center;
-  font-size: 10px;
+  font-size: 15px;
   color:black;
 }
+.item{
+  margin-left: 110px;
+}
+.Coba1{
+  background-color: #306de9;
+  border: black;
+  margin: 100px;
+  min-height: 10px;
+  min-width: 10px;
+  font-size: 10px;
+  color:rgb(247, 241, 241);
+}
+table, th, td {
+  border: 2px solid black;
+}
+table {
+  
+  width: 50%;
+}
+th {
+  height: 20px;
+  font-size: 20px;
+  background-color: gray;
+}
+td {
+  height: 10px;
+  font-size: 10px;
+  background-color: orange;
+}
+.tabel1{
+  position: center; 
+  margin-left: 25%;
+  text-align: center;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
+tr:hover {background-color: #f5f5f5;}
 
 .App-link {
   color: #61dafb;
