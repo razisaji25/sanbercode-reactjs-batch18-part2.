@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Tabel from './Tugas-10/Tabel';
+import Timer from './Tugas-11/Time';
 import UserInfo from './Tugas-9/UserInfo';
 
 
@@ -30,6 +31,12 @@ function App() {
       <center><h2><strong>TABEL HARGA BUAH</strong></h2></center>
       <div className="Coba2">
           <Tabel />
+      </div>
+
+      <center><h1><strong>TUGAS-11</strong></h1></center>
+      <center><h2><strong>Timer</strong></h2></center>
+      <div>
+          <Timer />
       </div>
   
     </div>
