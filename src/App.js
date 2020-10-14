@@ -3,7 +3,8 @@ import './App.css';
 import Tabel from './Tugas-10/Tabel';
 import Timer from './Tugas-11/Time';
 import UserInfo from './Tugas-9/UserInfo';
-
+import Form from './Tugas-12/form';
+import Axio from './Tugas-13/axio';
 
 function App() {
   return (
@@ -38,7 +39,21 @@ function App() {
       <div>
           <Timer />
       </div>
-  
+
+      <center><h1><strong>TUGAS-12</strong></h1></center>
+      <center><h2><strong>List dan Form</strong></h2></center>
+      <div>
+          <Form />
+      </div>
+
+      <center><h1><strong>TUGAS-13</strong></h1></center>
+      <div>
+          <Axio />
+      </div>      
+      
+      <div>
+        Sekian
+      </div>
     </div>
   );
 }
