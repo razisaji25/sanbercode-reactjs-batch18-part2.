@@ -4,6 +4,8 @@ import Tabel from './Tugas-10/Tabel';
 import Timer from './Tugas-11/Time';
 import UserInfo from './Tugas-9/UserInfo';
 import Form from './Tugas-12/form';
+import Home from './Tugas-13/coba';
+import Buah from './Tugas-14/Buah';
 import Axio from './Tugas-13/axio';
 
 function App() {
@@ -52,6 +54,13 @@ function App() {
       </div>      
       
       <div>
+      
+      <center><h1><strong>TUGAS-14</strong></h1></center>
+      <div>
+          <Buah />
+      </div>      
+      
+      <div></div>
         Sekian
       </div>
     </div>
